@@ -14,6 +14,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+
 This app requires installation of Node.js, Typescript Package, Eslint utility and Create React App generator
 ### npm install -global typescript 
 ### npm install -g eslint
