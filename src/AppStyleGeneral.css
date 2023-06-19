@@ -1,0 +1,215 @@
+/*-------General body styling  -----*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+/* Desktop version */
+.container {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid red;
+  border-radius: 15px;
+  max-height: 100vh;
+  overflow: auto;
+  margin: 20px;
+}
+
+/*-------Desktop form styling  -----*/
+form {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  padding: 40px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0px 0px 20px;
+}
+
+form div {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+form input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid lightgrey;
+  padding: 0 2.5rem;
+  font-size: 15px;
+  color: grey;
+  position: relative;
+  box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.2);
+}
+
+/*-------Form input and input Icon styling  -----*/
+input:focus {
+  outline: transparent;
+  border: 2px solid #F2877D;
+}
+
+input.error {
+  border-color: red;
+}
+
+input.success {
+  border-color: green;
+}
+
+.inputIcons {
+  position: absolute;
+  top: 63%;
+  left: 1rem;
+  z-index: 24;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+/*-------Form submit Button styling -----*/
+.submit {
+  width: 100%;
+  background-color: #F2877D;
+  border-style: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.2);
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  transition: all 0.1s;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #fcb4ae;
+}
+
+/*-------Success/Failure icon styling -----*/
+.success-icon,
+.error-icon {
+  opacity: 1;
+  position: absolute;
+  right: 3%;
+  top: 60%;
+}
+
+.success-icon {
+  color: green;
+}
+
+.error-icon {
+  color: red
+}
+
+.error {
+  color: red;
+}
+
+/*-------Login styling----*/
+.login {
+  color: #F2877D
+}
+
+/*-------"Or" divider between social buttons and form, styling-----*/
+.divider {
+  text-align: center;
+}
+
+.signingIcons {
+  max-width: 25px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  
+}
+
+/*-------Social buttons styling-----*/
+.button-1,
+.button-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  width: 100%;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 5px;
+  box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.2);
+}
+
+.button-2 {
+  color: white;
+  background-color: rgb(66 103 178)
+}
+
+/*-------General image and brand styling  -----*/
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #F2877D;
+  color: white;
+  min-height: 80vh;
+  width: 55%;
+  padding: 10px 20px;
+}
+
+.logo {
+  padding: 1rem;
+}
+
+
+.image {
+  background-image: url("https://svgshare.com/i/_gZ.svg'%20title='illustration");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100%;
+}
+
+.text {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 1.5rem;
+}
+
+
+/* Mobile version */
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    box-shadow: none;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  form,
+  .container {
+    width: 100%;
+  }
+
+  .content {
+    display: none;
+  }
+}
