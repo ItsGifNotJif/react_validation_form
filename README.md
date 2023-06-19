@@ -14,20 +14,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-This app requires installation of Node.js, Typescript Package and Eslint utility
+This app requires installation of Node.js, Typescript Package, Eslint utility and Create React App generator
 ### npm install -global typescript 
 ### npm install -g eslint
+### npm install -g create-react-app
 
 
+Installation of FontAwesome Icons and Fonts from package.json dependencies
 
-
-
-
-Installation of FontAwesome Icons and Fonts:
-
-### npm i --save @fortawesome/fontawesome-svg-core
-### npm i --save @fortawesome/free-solid-svg-icons
-### npm i --save @fortawesome/free-regular-svg-icons
-### npm i --save @fortawesome/react-fontawesome@latest
+### npm install
 
 
