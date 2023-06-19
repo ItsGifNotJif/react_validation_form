@@ -16,7 +16,7 @@ You may also see any lint errors in the console.
 
 Installation of FontAwesome Icons and Fonts:
 
-$npm i --save @fortawesome/fontawesome-svg-core
+ ### '$npm i --save @fortawesome/fontawesome-svg-core'
 $npm i --save @fortawesome/free-solid-svg-icons
 $npm i --save @fortawesome/free-regular-svg-icons
 $npm i --save @fortawesome/react-fontawesome@latest
